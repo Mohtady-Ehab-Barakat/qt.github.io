@@ -49,7 +49,7 @@ export default function App() {
           <div className="space-y-3 text-sm">
             <div>
               <p className="text-white/70">Valid From</p>
-              <p className="text-white">2026-04-2026</p>
+              <p className="text-white">2026-04-28</p>
             </div>
 
             <div>
