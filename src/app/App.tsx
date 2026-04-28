@@ -16,7 +16,7 @@ export default function App() {
             />
           </div>
           <h1 className="text-white text-center text-xl font-semibold mb-1">Hayya Entry Visa</h1>
-          <p className="text-white/90 text-center text-sm">for State of Qatar</p>
+          <p className="text-white/90 text-center text-xl font-semibold">for State of Qatar</p>
         </div>
 
         {/* Photo and Name Card */}
