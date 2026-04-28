@@ -1,3 +1,6 @@
+import logo from '../imports/Untitled_design-1.png'
+import profile from '../imports/PHOTO-2026-04-27-13-37-48.jpeg'
+
 export default function App() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-[#4a6b7c] to-[#2d4a5c] flex items-center justify-center p-4">
@@ -6,7 +9,7 @@ export default function App() {
         <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 mb-4 border border-white/20">
           <div className="flex flex-col items-center mb-4">
             <img
-              src="/src/imports/Untitled_design-1.png"
+              src={logo}
               alt="State of Qatar"
               className="w-40 h-40 mb-3 object-contain"
             />
@@ -20,7 +23,7 @@ export default function App() {
           <div className="flex gap-0 mb-4">
             <div className="w-2/3">
               <img
-                src="/src/imports/PHOTO-2026-04-27-13-37-48.jpeg"
+                src={profile}
                 alt="Profile"
                 className="w-full h-full object-cover"
               />
