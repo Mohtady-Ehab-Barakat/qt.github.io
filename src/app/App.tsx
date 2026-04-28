@@ -1,5 +1,6 @@
 import logo from '../imports/Untitled_design-1.png'
 import profile from '../imports/PHOTO-2026-04-27-13-37-48.jpeg'
+import qrCode from '../imports/qr-code.png'
 
 export default function App() {
   return (
@@ -121,35 +122,7 @@ export default function App() {
         <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 mb-4 border border-white/20">
           <div className="flex flex-col items-center">
             <div className="bg-white p-4 rounded-lg mb-3">
-              <svg width="200" height="200" viewBox="0 0 200 200">
-                {/* QR Code Pattern */}
-                <rect width="200" height="200" fill="white"/>
-                <rect x="10" y="10" width="50" height="50" fill="black"/>
-                <rect x="20" y="20" width="30" height="30" fill="white"/>
-                <rect x="140" y="10" width="50" height="50" fill="black"/>
-                <rect x="150" y="20" width="30" height="30" fill="white"/>
-                <rect x="10" y="140" width="50" height="50" fill="black"/>
-                <rect x="20" y="150" width="30" height="30" fill="white"/>
-                <rect x="70" y="30" width="10" height="10" fill="black"/>
-                <rect x="90" y="30" width="10" height="10" fill="black"/>
-                <rect x="110" y="30" width="10" height="10" fill="black"/>
-                <rect x="70" y="50" width="10" height="10" fill="black"/>
-                <rect x="110" y="50" width="10" height="10" fill="black"/>
-                <rect x="70" y="70" width="60" height="10" fill="black"/>
-                <rect x="30" y="90" width="10" height="10" fill="black"/>
-                <rect x="50" y="90" width="10" height="10" fill="black"/>
-                <rect x="90" y="90" width="40" height="10" fill="black"/>
-                <rect x="150" y="90" width="30" height="10" fill="black"/>
-                <rect x="70" y="110" width="10" height="10" fill="black"/>
-                <rect x="100" y="110" width="30" height="10" fill="black"/>
-                <rect x="150" y="110" width="20" height="10" fill="black"/>
-                <rect x="80" y="130" width="90" height="10" fill="black"/>
-                <rect x="80" y="150" width="10" height="10" fill="black"/>
-                <rect x="110" y="150" width="20" height="10" fill="black"/>
-                <rect x="150" y="150" width="30" height="10" fill="black"/>
-                <rect x="80" y="170" width="30" height="10" fill="black"/>
-                <rect x="130" y="170" width="50" height="10" fill="black"/>
-              </svg>
+              <img src={qrCode} alt="QR Code" width="200" height="200" />
             </div>
             <p className="text-white/90 text-sm mb-1">EG2044747465</p>
             <p className="text-white text-lg">Hayya<span className="text-[#ffd700]">ـّ</span></p>
