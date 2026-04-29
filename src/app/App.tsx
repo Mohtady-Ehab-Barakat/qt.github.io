@@ -69,7 +69,7 @@ export default function App() {
 
             <div>
               <p className="text-white/70">VISA CATEGORY</p>
-              <p className="text-white">Conference and events</p>
+              <p className="text-white">Tourist Visa (A1)</p>
             </div>
           </div>
         </div>
